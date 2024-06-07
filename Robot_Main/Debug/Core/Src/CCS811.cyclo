@@ -1,0 +1,10 @@
+../Core/Src/CCS811.c:14:6:writeReg	1
+../Core/Src/CCS811.c:22:6:CCS811_softReset	1
+../Core/Src/CCS811.c:28:9:readReg	1
+../Core/Src/CCS811.c:34:6:setMeasurementMode	1
+../Core/Src/CCS811.c:44:6:setInTempHum	3
+../Core/Src/CCS811.c:64:9:CCS811_Init	3
+../Core/Src/CCS811.c:88:9:CCS811_checkDataReady	2
+../Core/Src/CCS811.c:101:10:CCS811_getCO2PPM	1
+../Core/Src/CCS811.c:111:10:CCS811_getTVOCPPB	1
+../Core/Src/CCS811.c:119:6:CCS811_writeBaseLine	1

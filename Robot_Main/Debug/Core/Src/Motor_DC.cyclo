@@ -1,0 +1,9 @@
+../Core/Src/Motor_DC.c:32:6:DC_RIGHT_DOWN	1
+../Core/Src/Motor_DC.c:37:6:DC_RIGHT_UP	1
+../Core/Src/Motor_DC.c:42:6:DC_LEFT_UP	1
+../Core/Src/Motor_DC.c:49:6:DC_LEFT_DOWN	1
+../Core/Src/Motor_DC.c:56:6:ROBOT_Forward	1
+../Core/Src/Motor_DC.c:66:6:ROBOT_Backward	1
+../Core/Src/Motor_DC.c:73:6:ROBOT_TurnLeft	1
+../Core/Src/Motor_DC.c:81:6:ROBOT_TurnRight	1
+../Core/Src/Motor_DC.c:89:6:ROBOT_Stop	1
