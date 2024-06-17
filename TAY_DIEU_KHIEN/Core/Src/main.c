@@ -179,10 +179,10 @@ int main(void)
 	  		else
 	  		{
 
-	  			while(i<35)
-	  			{
-	  				if(state==1)
-	  				{
+	  			//while(i<35)
+	  			//{
+	  				//if(state==1)
+	  				//{
 						if(NRF24_Transmit(Data_Stop)==1)
 						{
 
@@ -191,11 +191,11 @@ int main(void)
 							HAL_UART_Transmit(&huart1,Data_Tx, strlen((char *)Data_Tx), 1000);
 
 						}
-	  				}
-					i++;
-	  			}
-	  			i=0;
-	  			state = 0;
+	  				//}
+					//i++;
+	  			//}
+	  			//i=0;
+	  			//state = 0;
 	  		}
   }
   /* USER CODE END 3 */
