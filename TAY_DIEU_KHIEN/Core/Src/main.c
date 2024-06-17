@@ -71,7 +71,7 @@ uint8_t Data_Right[]="R";
 uint8_t Data_Up[]=   "U";
 uint8_t Data_Down[]= "D";
 uint8_t Data_Stop[]= "Stop";
-int i=0;state = 1;
+int i=0;//state = 1;
 /* USER CODE END 0 */
 
 /**
@@ -135,7 +135,7 @@ int main(void)
 
 				}
 
-	  			state = 1;
+	  			//state = 1;
 	  		}
 	  		else if(buf_adc[0]<10)
 	  		{
@@ -148,7 +148,7 @@ int main(void)
 					HAL_UART_Transmit(&huart1,Data_Tx, strlen((char *)Data_Tx), 1000);
 				}
 
-	  			state = 1;
+	  			//state = 1;
 	  		}
 	  		else if(buf_adc[1]>3500)
 	  		{
@@ -161,7 +161,7 @@ int main(void)
 					HAL_UART_Transmit(&huart1,Data_Tx, strlen((char *)Data_Tx), 1000);
 				}
 
-	  			state = 1;
+	  			//state = 1;
 	  		}
 	  		else if(buf_adc[1]<10)
 	  		{
@@ -174,7 +174,7 @@ int main(void)
 
 				}
 
-	  			state = 1;
+	  			//state = 1;
 	  		}
 	  		else
 	  		{
